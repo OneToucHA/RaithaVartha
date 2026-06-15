@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#1B5E20"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📷"
+        android:textSize="64sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ತಜ್ಞರನ್ನು ಕೇಳಿ"
+        android:textSize="28sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ರೋಗಗ್ರಸ್ತ ಎಲೆಯ ಫೋಟೋ ತೆಗೆದು ತಜ್ಞರಿಗೆ ಕಳುಹಿಸಿ"
+        android:textSize="16sp"
+        android:textColor="#C8E6C9"
+        android:gravity="center"
+        android:layout_marginTop="8dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnTakePhoto"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="32dp"
+        android:text="📸 ಫೋಟೋ ತೆಗೆಯಿರಿ / Take Photo"
+        android:backgroundTint="#FF6F00"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnGoBack"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="12dp"
+        android:text="🔙 ಹಿಂದೆ ಹೋಗಿ / Go Back"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"/>
+
+</LinearLayout>
